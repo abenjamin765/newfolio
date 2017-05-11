@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.gradient {
+  padding: 50px 0;
+  border-bottom: solid 1px #eee;
+  background: #f2f2f2;
+  background: -moz-linear-gradient(45deg, #f2f2f2 1%, #ffffff 100%);
+  background: -webkit-linear-gradient(45deg, #f2f2f2 1%, #ffffff 100%);
+  background: linear-gradient(45deg, #f2f2f2 1%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=1 );
+  position: relative; }
+
+body {
+  font-family: helvetica, arial, sans-serif; }
+
+#wrapper {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.page-header h1 {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1.5em;
+  text-transform: uppercase;
+  color: #999; }
+  .page-header h1 small {
+    font-size: 1.5rem;
+    display: block;
+    padding: 0.25em;
+    color: #333; }
+
+.hero {
+  text-align: center;
+  position: relative; }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin-bottom: 3em; }
+  .hero .big {
+    font-size: 8rem;
+    font-weight: 900; }
+  .hero .little {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #F36C55; }
+  .hero .social {
+    margin: 2em auto;
+    box-sizing: border-box;
+    display: block;
+    text-align: center; }
+    .hero .social li {
+      display: inline-block;
+      margin: 10px 0; }
+      .hero .social li a {
+        display: block;
+        padding: 4px 30px;
+        color: #999; }
+        .hero .social li a:hover i {
+          color: #333; }
+      .hero .social li + li {
+        border-left: solid 1px #e6e6e6; }
+
+.showcase {
+  padding: 50px 0;
+  overflow: hidden;
+  text-align: center;
+  position: relative; }
+  .showcase h2 {
+    font-size: 2rem;
+    color: #333; }
+  .showcase .lead {
+    font-size: 1rem;
+    color: #666;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.4rem; }
+  .showcase .action {
+    background: #F36C55;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-weight: 200; }
+    .showcase .action:hover {
+      background: #D9614C;
+      padding: 10px 50px; }
+  .showcase .screen-block {
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    height: auto;
+    max-width: 100%;
+    margin: 30px 0; }
+  .showcase + .showcase {
+    border-top: solid 1px #eee; }
+
+.cards {
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 600px; }
+  .cards .card {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2); }
+    .cards .card img {
+      width: 100%;
+      height: auto; }
